@@ -1,1 +1,92 @@
-/* Add your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #055693;
+  text-align: center;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.header p{
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.header img{
+  width: 250px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* Timeline Background */
+.timelinebackground{
+  background-color:#0773c4;
+}
+
+/* Timeline Section */
+.timeline {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.timeline::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 300px;
+  height:300px;
+  background-color:#016b97;
+  padding: 25px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h2 {
+  color: white;
+  font-family: "Public Sans", sans-serif;
+}
+
+.card h3 {
+  color: white;
+  font-family: "Public Sans", sans-serif;
+}
+
+.card p {
+  color: white;
+  font-family: "Public Sans", sans-serif;
+}
+
+/* Bottom Section */
+.bottom {
+  background-color:#055693;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Public Sans", sans-serif;
+  text-align: center;
+}
