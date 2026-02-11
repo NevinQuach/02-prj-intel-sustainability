@@ -49,13 +49,7 @@
   gap: 25px;
   padding: 25px;
   overflow-x: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
   scroll-snap-type: x mandatory;
-}
-
-.timeline::-webkit-scrollbar {
-  display: none;
 }
 
 .card {
